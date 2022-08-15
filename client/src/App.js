@@ -2,6 +2,8 @@ import './App.css';
 import React from 'react';
 import Login from './Components/Login/Login';
 import Dashboard from './Components/Lecturer/Dashboard/Dashboard';
+import StudentDashboard from './Components/Student/StudentDashboard/StudentDashboard';
+
 
 function App() {
   return (
