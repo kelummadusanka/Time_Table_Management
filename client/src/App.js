@@ -8,6 +8,7 @@ function App() {
     <div className="App">
       <Nav/>
       Test App for Time Table Mangement System
+      <p>difudsiofudsifudsfuo</p>
       <Login />
     </div>
   );
