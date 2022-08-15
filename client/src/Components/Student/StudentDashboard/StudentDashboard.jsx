@@ -2,7 +2,7 @@ import React from 'react'
 
 function StudentDashboard() {
   return (
-    <div>StudentDashboard</div>
+    <div>Student Dashboard is here!</div>
   )
 }
 
