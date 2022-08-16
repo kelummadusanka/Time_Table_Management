@@ -26,10 +26,16 @@
     object-fit: cover;
     border-radius: 15px;
     transform: scale(1.0);
+    padding-bottom: 10px;
 }
 
 .grid-item:hover .card-img {
-    transform: scale(1.2);
+    transform: scale(1.15);
+    display: block;
+    width: 100%;
+    height: 10rem;
+    object-fit: cover;
+    border-radius: 15px;
 }
 
 .card-header {
@@ -38,14 +44,23 @@
     color: #0d0d0d;
     margin-bottom: 1.5rem;
     margin-left: 20px;
-    margin-bottom: -20px;
+    margin-bottom: 0px;
+}
+
+.grid-item:hover .card-header {
+    font-size: 1.9rem;
+    font-weight: 700;
+    color: #0d0d0d;
+    margin-bottom: 1.5rem;
+    margin-left: 20px;
+    margin-bottom: 0px;
 }
 
 .card-text {
     font-size: 18px;
     letter-spacing: 0.1rem;
     line-height: 1.7;
-    color: #3d3d3d;
+    color: #a225dc;
     margin-bottom: 2.5rem;
     font-style: italic;
     margin-left: 40px;
