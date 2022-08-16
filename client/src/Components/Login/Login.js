@@ -1,7 +1,6 @@
 // import React from "react";
 // import Form from "react-bootstrap/Form";
 // import Button from "react-bootstrap/Button";
-// import './Login.css';
 // import { useState, useEffect } from "react";
 
 // function Login() { 
@@ -140,6 +139,7 @@
 
 
 import React from 'react'
+import { useForm } from "react-hook-form";
 import {
   ThemeProvider,
   theme,
@@ -162,8 +162,9 @@ import {
 
 const VARIANT_COLOR = 'teal'
 
+
 const Login = () => {
-    
+    const { register, handleSubmit, formState: { errors } } = useForm(); 
   return (
     <><Flex minHeight='100vh' width='full' align='center' justifyContent='center'>
     <Box 
@@ -188,7 +189,9 @@ const Login = () => {
       <FormControl>
         <FormLabel>Username</FormLabel>
         <Input type='email' placeholder='Enter your username' />
+        {/* {...register("firstname", { required: true })} */}
       </FormControl>
+      
 
       <FormControl mt={4}>
         <FormLabel>Password</FormLabel>
