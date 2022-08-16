@@ -1,8 +1,9 @@
 import React from 'react'
+import AdminCrudCards from '../AdminCrudCards/AdminCrudCards'
 
 function AdminDashboard() {
   return (
-    <div>Admin Dashboard is here!</div>
+    <div><AdminCrudCards/></div>
   )
 }
 

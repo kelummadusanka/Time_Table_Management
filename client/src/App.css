@@ -38,5 +38,27 @@
 }
 
 .NavBar-content {
-    width: 600px;
+    width: 350px;
+    color: red;
+    background-color: beige;
+}
+
+.main-container {
+    display: flex;
+    height: 100vh;
+}
+
+.horizontal-raw {
+    display: flex;
+    height: 10%;
+    width: 100%;
+    background-color: #61dafb;
+}
+
+.content {
+    width: 100%;
+}
+
+.main-content {
+    padding: 2%;
 }
