@@ -6,6 +6,7 @@ import StudentDashboard from "./Components/Student/StudentDashboard/StudentDashb
 import AdminPanel from "./Components/Admin/AdminPanel";
 import Nav from "./Components/Nav/Nav";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Heading } from "@chakra-ui/react";
 
 
 function App() {
@@ -15,7 +16,11 @@ function App() {
       <div className="content">
 
       <div className="horizontal-raw">
-        horizontal raw goes to here
+       
+      <Heading size='lg' fontSize='35px' color={"#ffffff"} textAlign='right'>
+         TIMETABLE MANAGEMENT SYSTEM
+     </Heading>
+       
       </div>
       <div className="main-content">
 

@@ -2,7 +2,7 @@
 
 
 import React from 'react'
-import { useForm } from "react-hook-form";
+
 
 
 import {
@@ -30,16 +30,16 @@ const VARIANT_COLOR = 'teal';
 
 
 const Login = () => {
-     const { register, handleSubmit, formState: { errors } } = useForm(); 
+  //  const { register, handleSubmit, formState: { errors } } = useForm(); 
     
   return (
     
-    <><Flex minHeight='100vh' width='full' align='center' justifyContent='center'>
+    <><Flex minHeight='80vh' width='full' align='center' justifyContent='center'>
     <Box 
       borderWidth={1}
       px={4}
       width='full'
-      maxWidth='500px'
+       maxWidth='500px'
       borderRadius={4}
       textAlign='center'
       boxShadow='lg'
