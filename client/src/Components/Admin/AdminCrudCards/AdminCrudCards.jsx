@@ -27,8 +27,8 @@ function AdminCrudCards() {
       {Data.map((Card,key) =>{
 
         return(
-          <ManageCard/>
-        // <AdminCrudCard key={key} Text={Card.Text} Header = {Card.Header} Image = {Card.Image}/>)
+        <ManageCard/>
+        )
 
       })}
            
