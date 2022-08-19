@@ -1,0 +1,64 @@
+.MY-Account-History {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+}
+
+.Lec-table {
+    width: 80%;
+    text-align: center;
+    border-collapse: separate;
+    border-spacing: 0 10px;
+    margin: 20px 0;
+}
+
+.Lec-table td,
+.Lec-table th {
+    border: solid 2px #0E9BF5;
+    border-style: solid none;
+    padding: 15px 5px;
+    background-image: linear-gradient(rgba(14, 155, 245, 0.15), rgba(14, 155, 245, 0.15));
+}
+
+.Lec-table td:first-child,
+.Lec-table th:first-child {
+    border-left-style: solid;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.Lec-table td:last-child,
+.Lec-table th:last-child {
+    border-right-style: solid;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+.fa-edit {
+    color: blue;
+    cursor: pointer;
+    font-size: 28px;
+}
+
+.fa-trash-alt {
+    color: black;
+    cursor: pointer;
+    margin-right: 10px;
+    font-size: 28px;
+}
+
+@media(max-width: 1200px) {
+    .Lec-table td:nth-child(2),
+    .Lec-table th:nth-child(2) {
+        display: none;
+    }
+}
+
+@media(max-width: 600px) {
+    .Lec-table td:nth-child(3),
+    .Lec-table th:nth-child(3) {
+        display: none;
+    }
+}
