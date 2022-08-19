@@ -1,6 +1,6 @@
 import React from 'react'
 import './AdminUpcommingBubble.css'
-import { FaBeer } from "@react-icons/all-files/fa/FaBeer";
+//import { FaBeer } from "@react-icons/all-files/fa/FaBeer";
 
 function AdminUpcommingBubble() {
   return (
@@ -14,7 +14,7 @@ function AdminUpcommingBubble() {
                    <td>Place1</td>
                    <td>Control System</td>
                    <td>
-                   <FaBeer />
+                   {/* <FaBeer /> */}
                    </td>
                  </tr>
             

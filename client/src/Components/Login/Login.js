@@ -2,7 +2,7 @@
 
 
 import React from 'react'
-import { useForm } from "react-hook-form";
+
 
 
 import {
@@ -30,7 +30,7 @@ const VARIANT_COLOR = 'teal';
 
 
 const Login = () => {
-     const { register, handleSubmit, formState: { errors } } = useForm(); 
+  //  const { register, handleSubmit, formState: { errors } } = useForm(); 
     
   return (
     
