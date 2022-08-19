@@ -54,6 +54,7 @@ export default function Nav() {
                             changeNavSize("small")
                     }}
                 />
+                {}
                 <NavItem navSize={navSize} icon={FiHome} title="Dashboard" description="Input the description for the dashboard." />
                 <NavItem navSize={navSize} icon={FiCalendar} title="Calendar" active />
                 <NavItem navSize={navSize} icon={FiUser} title="Members" />
@@ -61,6 +62,7 @@ export default function Nav() {
                 <NavItem navSize={navSize} icon={FiBriefcase} title="Weekly Reports" />
                 <NavItem navSize={navSize} icon={FiSettings} title="Settings" />
                 <NavItem navSize={navSize} icon={FiHelpCircle} title="Help" />
+                
             </Flex>
 
             <Flex
