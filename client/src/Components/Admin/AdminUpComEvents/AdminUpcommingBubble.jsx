@@ -13,7 +13,7 @@ function AdminUpcommingBubble() {
                    <td>props.Place</td>
                    <td>props.</td>
                    <td>
-                    
+
                    </td>
                  </tr>
             

@@ -6,9 +6,7 @@ function StudentDashboard() {
     <div>
  
       <HStack spacing='24px' >
-        <VStack h={'calc(100vh)'} bg={'yellow'} flex={1} bgGradient={[
-    'linear(t-b, white.1000, yellow.30)',
-  ]} >
+        <VStack h={'calc(100vh)'} bg={'yellow'} flex={1} bgGradient='linear(red.100 0%, orange.100 25%, yellow.100 50%)' >
           <div>
           <Image
             borderRadius='full'
