@@ -7,6 +7,7 @@ import AdminPanel from "./Components/Admin/AdminPanel";
 import Nav from "./Components/Nav/Nav";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import {Center,Square,Circle} from "@chakra-ui/react";
+import ForgotPassword from "./Components/Login/ForgotPassword";
 
 
 function App() {
@@ -31,6 +32,9 @@ function App() {
           <Route path="/LecDashboard" element={<LecDashboard />} />
           <Route path="/StudentDashboard" element={<StudentDashboard />} />
           <Route path="/AdminDashboard/*" element={<AdminPanel />} />
+          <Route path="/ForgotPassword" element={<ForgotPassword />} />
+
+
         </Routes>
       </BrowserRouter>
       </div>
