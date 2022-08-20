@@ -39,17 +39,17 @@ const Login = () => {
       borderWidth={1}
       px={4}
       width='full'
-       maxWidth='500px'
+      maxWidth='500px'
       borderRadius={4}
       textAlign='center'
       boxShadow='lg'
     >
       <Box p={4}>
-      <Box textAlign='center'>
+      <Box textAlign='center'height='70px'>
     <Heading>Login</Heading>
-    {/* <Text>
+    {/* { <Text>
       Or <Link color={`${VARIANT_COLOR}.500`}> trial</Link>
-    </Text> */}
+    </Text> } */}
   </Box>
   <Box my={8} textAlign='left'>
     <form>

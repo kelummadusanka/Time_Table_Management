@@ -1,4 +1,5 @@
 import React from "react";
+import { MdBuild, MdCall } from "react-icons/md";
 import {
   Drawer,
   DrawerBody,
@@ -21,6 +22,7 @@ function ModuleDrawer() {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const btnRef = React.useRef();
 
+
   return (
     <>
       <Button ref={btnRef} colorScheme="teal" onClick={onOpen}>
@@ -38,18 +40,27 @@ function ModuleDrawer() {
           <DrawerHeader>Select Your Modules</DrawerHeader>
 
           <DrawerBody>
-            <InputGroup>
+            <InputGroup mb={10}>
               <InputLeftElement
                 pointerEvents="none"
-                children={<SearchIcon color="gray.300" />}
+                children={<MdBuild color="gray.300" />}
               />
-              <Input type="tel" placeholder="Phone number" />
+              <Input type="tel" placeholder="Search module" />
             </InputGroup>
             <CheckboxGroup colorScheme="green">
               <Stack spacing={[0, 10]} direction={["row", "column"]}>
-                <Checkbox value="naruto">Naruto</Checkbox>
-                <Checkbox value="sasuke">Sasuke</Checkbox>
-                <Checkbox value="kakashi">Kakashi</Checkbox>
+                <Checkbox value="Communication System 1"> Communication System 1</Checkbox>
+                <Checkbox value="Communication System 2">Communication System 2</Checkbox>
+                <Checkbox value="Electric Machines 1">Electric Machines 1</Checkbox>
+                <Checkbox value="Communication System 1"> Communication System 1</Checkbox>
+                <Checkbox value="Communication System 2">Communication System 2</Checkbox>
+                <Checkbox value="Electric Machines 1">Electric Machines 1</Checkbox>
+                <Checkbox value="Communication System 1"> Communication System 1</Checkbox>
+                <Checkbox value="Communication System 2">Communication System 2</Checkbox>
+                <Checkbox value="Electric Machines 1">Electric Machines 1</Checkbox>
+                <Checkbox value="Communication System 1"> Communication System 1</Checkbox>
+                <Checkbox value="Communication System 2">Communication System 2</Checkbox>
+                <Checkbox value="Electric Machines 1">Electric Machines 1</Checkbox>
               </Stack>
             </CheckboxGroup>
           </DrawerBody>

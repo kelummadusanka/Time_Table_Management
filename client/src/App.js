@@ -7,6 +7,7 @@ import AdminPanel from "./Components/Admin/AdminPanel";
 import Nav from "./Components/Nav/Nav";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Heading } from "@chakra-ui/react";
+import {Center,Square,Circle} from "@chakra-ui/react";
 
 
 function App() {
@@ -17,9 +18,10 @@ function App() {
 
       <div className="horizontal-raw">
        
-      <Heading size='lg' fontSize='35px' color={"#ffffff"} textAlign='right'>
-         TIMETABLE MANAGEMENT SYSTEM
-     </Heading>
+      <Center h='100px' fontSize='35px' color={"teal"} width='full'>
+         <b>TIMETABLE MANAGEMENT SYSTEM</b>
+         <image box/>
+     </Center>
        
       </div>
       <div className="main-content">
