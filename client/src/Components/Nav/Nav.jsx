@@ -44,6 +44,7 @@ export default function Nav() {
             >
                 <IconButton
                     background="none"
+                    color='black'
                     mt={5}
                     _hover={{ background: 'none' }}
                     icon={<FiMenu />}
@@ -74,9 +75,9 @@ export default function Nav() {
             >
                 <Divider display={navSize == "small" ? "none" : "flex"} />
                 <Flex mt={4} align="center">
-                    <Avatar size="sm" src="avatar-1.jpg" />
+                    <Avatar size="sm" src="" />
                     <Flex flexDir="column" ml={4} display={navSize == "small" ? "none" : "flex"}>
-                        <Heading as="h3" size="sm">Niroth</Heading>
+                        <Heading as="h3" size="sm" color='purple.800'>Niroth</Heading>
                         <Text color="black">Admin</Text>
                     </Flex>
                 </Flex>
