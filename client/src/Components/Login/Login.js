@@ -24,14 +24,9 @@ import {
   Checkbox,
   Button,
   FormErrorMessage,
-  Menu,
-  MenuButton,
-  MenuList,
-  MenuItem,
-  MenuItemOption,
-  MenuGroup,
-  MenuOptionGroup,
-  MenuDivider,
+
+  Select,
+
 } from '@chakra-ui/react'
 
 const VARIANT_COLOR = 'teal';
@@ -69,26 +64,22 @@ const Login = () => {
 
                 </div>
               </FormControl>
-              <FormErrorMessage>(formik.errors.username)</FormErrorMessage>
+
 
               <FormControl mt={4}>
                 <FormLabel>Password</FormLabel>
                 <Input type='password' placeholder='Enter your password' />
               </FormControl>
+              
+              <FormControl mt={4}>
+                <FormLabel>User type</FormLabel>
+              </FormControl>
 
-
-              <Menu >
-
-                <MenuButton as={Button} mt="20px" >
-                  User type
-                </MenuButton>
-                <MenuList>
-                  <MenuItem>Admin</MenuItem>
-                  <MenuItem>Lecturer</MenuItem>
-                  <MenuItem>Student</MenuItem>
-
-                </MenuList>
-              </Menu>
+              <Select placeholder='Select category' mt={4}>
+                <option value='option1'>Admin</option>
+                <option value='option2'>Lecturer</option>
+                <option value='option3'>Student</option>
+              </Select>
 
               <Stack isInline justifyContent='space-between' mt={4}>
                 <Box>

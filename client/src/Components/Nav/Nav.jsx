@@ -57,7 +57,7 @@ export default function Nav() {
                 />
                 {}
                 <NavItem navSize={navSize} icon={FiHome} title="Dashboard" description="Input the description for the dashboard." />
-                <NavItem navSize={navSize} icon={FiCalendar} title="Calendar" active />
+                <NavItem navSize={navSize} icon={FiCalendar} title="Calendar"  />
                 <NavItem navSize={navSize} icon={FiUser} title="Members" />
                 <NavItem navSize={navSize} icon={FiUploadCloud} title="FAQ" />
                 <NavItem navSize={navSize} icon={FiBriefcase} title="Weekly Reports" />
