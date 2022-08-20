@@ -1,6 +1,7 @@
 import React from 'react'
 import './AdminCrudCards.css'
 import AdminCrudCard from '../AdminCrudCard/AdminCrudCard'
+import ManageCard from '../AdminCrudCard/ManageCard'
 
 const Data =[
   {
@@ -26,7 +27,8 @@ function AdminCrudCards() {
       {Data.map((Card,key) =>{
 
         return(
-        <AdminCrudCard key={key} Text={Card.Text} Header = {Card.Header} Image = {Card.Image}/>)
+        <ManageCard/>
+        )
 
       })}
            

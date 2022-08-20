@@ -1,8 +1,7 @@
 import React from 'react'
-import './AdminUpcommingBubble.css'
-import { FaBeer } from "@react-icons/all-files/fa/FaBeer";
+import './AdminUpcommingItem.css'
 
-function AdminUpcommingBubble() {
+function AdminUpcommingItem() {
   return (
          <div className="MA-History">
          <table className="MA-history-table">
@@ -14,7 +13,7 @@ function AdminUpcommingBubble() {
                    <td>props.Place</td>
                    <td>props.</td>
                    <td>
-                   <FaBeer />
+
                    </td>
                  </tr>
             
@@ -25,4 +24,4 @@ function AdminUpcommingBubble() {
   )
 }
 
-export default AdminUpcommingBubble
+export default AdminUpcommingItem
