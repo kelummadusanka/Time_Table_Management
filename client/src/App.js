@@ -6,7 +6,6 @@ import StudentDashboard from "./Components/Student/StudentDashboard/StudentDashb
 import AdminPanel from "./Components/Admin/AdminPanel";
 import Nav from "./Components/Nav/Nav";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Heading } from "@chakra-ui/react";
 import {Center,Square,Circle} from "@chakra-ui/react";
 
 
@@ -20,7 +19,7 @@ function App() {
        
       <Center h='100px' fontSize='35px' color={"teal"} width='full'>
          <b>TIMETABLE MANAGEMENT SYSTEM</b>
-         <image box/>
+         <image box />
      </Center>
        
       </div>
