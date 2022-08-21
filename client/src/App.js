@@ -6,7 +6,8 @@ import StudentDashboard from "./Components/Student/StudentDashboard/StudentDashb
 import AdminPanel from "./Components/Admin/AdminPanel";
 import Nav from "./Components/Nav/Nav";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Heading } from "@chakra-ui/react";
+import {Center,Square,Circle} from "@chakra-ui/react";
+import ForgotPassword from "./Components/Login/ForgotPassword";
 
 
 function App() {
@@ -17,9 +18,10 @@ function App() {
 
       <div className="horizontal-raw">
        
-      <Heading size='lg' fontSize='35px' color={"#ffffff"} textAlign='right'>
-         TIMETABLE MANAGEMENT SYSTEM
-     </Heading>
+      <Center h='100px' fontSize='35px' color={"teal"} width='full'>
+         <b>TIMETABLE MANAGEMENT SYSTEM</b>
+         <image box />
+     </Center>
        
       </div>
       <div className="main-content">
@@ -30,6 +32,9 @@ function App() {
           <Route path="/LecDashboard" element={<LecDashboard />} />
           <Route path="/StudentDashboard" element={<StudentDashboard />} />
           <Route path="/AdminDashboard/*" element={<AdminPanel />} />
+          <Route path="/ForgotPassword" element={<ForgotPassword />} />
+
+
         </Routes>
       </BrowserRouter>
       </div>
