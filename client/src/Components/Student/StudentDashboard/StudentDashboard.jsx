@@ -1,4 +1,4 @@
-import { Avatar, Box, Divider, HStack, Stack, VStack } from '@chakra-ui/react'
+import { Avatar, Box, Center, Divider, HStack, Stack, VStack } from '@chakra-ui/react'
 import React from 'react'
 import { Image } from '@chakra-ui/react'
 import { AvatarBadge, AvatarGroup } from '@chakra-ui/react'
@@ -6,6 +6,8 @@ import { FaCamera  } from 'react-icons/fa';
 import Clockapp from './digital_clock/Clockapp';
 import { Route, Routes } from 'react-router-dom';
 import Calendar from 'react-calendar'
+import StripedRowExample from '../../Lecturer/Lecweeklysch/lecweekly';
+import TimeTable1 from './TimeTable';
 function StudentDashboard() {
   return (
     <div>
@@ -41,11 +43,13 @@ function StudentDashboard() {
         <VStack h={'calc(100vh)'} flex={4} borderBottom='8px' borderLeft='8px' borderBottomRadius={'lg'} borderBottomColor={'yellow.400'} borderLeftColor={'yellow.100'} bgGradient='linear(to-b, white, yellow.200)' >
           <Routes>
             <Route>
-            <Route path="/" element={<StudentDashboard />} />
-            <Route path="/Student_Time_Table" element={<Student_Time_Table />} />
             </Route>
           </Routes>
+          <Box  borderRadius={'3xl'} width={'full'} fontFamily={'serif'} border='8px' borderColor={'yellow'} textAlign={'center'}  margin='5' h={'100'} fontSize='50px' fontWeight={'semibold'} fontStyle='initial' textColor={'black'}>
+                2018/08/21 Sunday
+          </Box>
           
+            <TimeTable1></TimeTable1>
         </VStack>
       </HStack>
       </div>
