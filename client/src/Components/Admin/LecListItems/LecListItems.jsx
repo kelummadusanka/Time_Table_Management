@@ -33,7 +33,7 @@ const Lectures = [
     "Phone" : "+94719625632",
     "Email" : "senavirathnechatura@ruh.eng.ac.lk",
 
-  },
+  }
 ]
 
 

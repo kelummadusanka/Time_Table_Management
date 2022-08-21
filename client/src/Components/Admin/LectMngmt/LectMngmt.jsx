@@ -17,7 +17,9 @@ import {
 } from "@chakra-ui/react";
 
 import LecListItems from "../LecListItems/LecListItems";
-import LecCreate from "../LecCreate/LecCreate";
+import LecCreate from "../LecCrud/LecCreate";
+import LecUpdate from "../LecCrud/LecUpdate";
+import LecDelete from "../LecCrud/LecDelete";
 
 
 
@@ -82,6 +84,14 @@ function LectMngmt() {
 
         <TabPanel>
           <LecCreate/>
+        </TabPanel>
+
+        <TabPanel>
+          <LecUpdate/>
+        </TabPanel>
+
+        <TabPanel>
+          <LecDelete/>
         </TabPanel>
       </TabPanels>
     </Tabs>
