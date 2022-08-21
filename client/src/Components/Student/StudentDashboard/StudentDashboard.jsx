@@ -24,7 +24,8 @@ function StudentDashboard() {
             EG/2018/3403
           </Box>
         </VStack>
-        <VStack h={'calc(100vh)'} flex={4} bg={'blue.600'}></VStack>
+        <VStack h={'calc(100vh)'} flex={4} borderBottom='8px' borderLeft='8px' borderBottomRadius={'lg'} borderBottomColor={'yellow.400'} borderLeftColor={'yellow.100'} bgGradient='linear(to-b, white, yellow.200)' >
+          </VStack>
       </HStack>
       <HStack height={200} bg={'brown'}>
         </HStack>
